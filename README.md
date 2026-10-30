@@ -1,9 +1,7 @@
 # APS — Redes Convolucionais
 
-Implementação da atividade anterior da APS e infraestrutura para começar o estudo
-de ablação em azul. O projeto treina uma CNN própria em MNIST e CIFAR-10, compara
+O projeto treina uma CNN própria em MNIST e CIFAR-10, compara
 com ResNet-18 pré-treinada no ImageNet e mede o efeito de desligar o dropout.
-O documento escrito pedido na primeira atividade fica fora deste repositório.
 
 ## Ambiente
 
