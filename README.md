@@ -78,8 +78,7 @@ substitui seus artefatos anteriores.
 
 ## Decisões do experimento
 
-- CNN própria: três blocos convolucionais (32/64/128 canais), BatchNorm,
-  max-pooling, Global Average Pooling e classificador MLP.
+- CNN própria: três blocos convolucionais (32/64/128 canais), BatchNorm e duas camadas de max-pooling. Em seguida, AdaptiveAvgPool2d((4, 4)) reduz os mapas de características para 4×4, que são enviados ao classificador MLP.
 - Regularização da CNN: Dropout2d nas primeiras convoluções e Dropout no
   classificador, ambos removidos em conjunto na ablação.
 - Referência pré-treinada: ResNet-18 com pesos ImageNet congelados e cabeça de
