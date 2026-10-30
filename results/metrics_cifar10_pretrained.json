@@ -1,0 +1,190 @@
+{
+  "dataset": "cifar10",
+  "mode": "pretrained",
+  "component": "ImageNet pretrained ResNet18",
+  "transfer_strategy": "frozen feature extractor + trained linear head",
+  "pretrained_input_size": 64,
+  "resumed": true,
+  "dropout_enabled": false,
+  "seed": 42,
+  "epochs": 6,
+  "batch_size": 128,
+  "learning_rate": 0.0001,
+  "device": "cpu",
+  "limit": null,
+  "best_validation_accuracy": 0.6974,
+  "test": {
+    "accuracy": 0.695,
+    "macro_precision": 0.7006485863408791,
+    "macro_recall": 0.6950000000000001,
+    "macro_f1": 0.6922834511972826,
+    "confusion_matrix": [
+      [
+        755,
+        33,
+        61,
+        13,
+        12,
+        4,
+        17,
+        23,
+        55,
+        27
+      ],
+      [
+        23,
+        851,
+        3,
+        9,
+        2,
+        6,
+        5,
+        13,
+        20,
+        68
+      ],
+      [
+        58,
+        8,
+        629,
+        31,
+        62,
+        34,
+        147,
+        26,
+        4,
+        1
+      ],
+      [
+        23,
+        33,
+        58,
+        492,
+        50,
+        124,
+        134,
+        54,
+        11,
+        21
+      ],
+      [
+        20,
+        6,
+        118,
+        32,
+        540,
+        25,
+        160,
+        89,
+        4,
+        6
+      ],
+      [
+        13,
+        6,
+        63,
+        113,
+        36,
+        667,
+        43,
+        53,
+        3,
+        3
+      ],
+      [
+        5,
+        7,
+        45,
+        41,
+        11,
+        21,
+        858,
+        5,
+        4,
+        3
+      ],
+      [
+        26,
+        9,
+        48,
+        31,
+        64,
+        50,
+        24,
+        726,
+        3,
+        19
+      ],
+      [
+        130,
+        63,
+        16,
+        6,
+        9,
+        2,
+        6,
+        6,
+        734,
+        28
+      ],
+      [
+        47,
+        191,
+        4,
+        9,
+        2,
+        6,
+        7,
+        15,
+        21,
+        698
+      ]
+    ],
+    "loss": 0.890720811367035
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7470285448710123,
+      "train_accuracy": 0.38995555555555556,
+      "val_loss": 1.2410224740982057,
+      "val_accuracy": 0.5694
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2066084425396388,
+      "train_accuracy": 0.5913111111111111,
+      "val_loss": 1.036739385986328,
+      "val_accuracy": 0.6358
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0788373435974121,
+      "train_accuracy": 0.6335111111111111,
+      "val_loss": 0.9544403884887696,
+      "val_accuracy": 0.6638
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.0150406469133164,
+      "train_accuracy": 0.6536,
+      "val_loss": 0.8991301914215087,
+      "val_accuracy": 0.6842
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.976530821079678,
+      "train_accuracy": 0.6629333333333334,
+      "val_loss": 0.890717908859253,
+      "val_accuracy": 0.687
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.9480585204654269,
+      "train_accuracy": 0.6746222222222222,
+      "val_loss": 0.8667783059120179,
+      "val_accuracy": 0.6974
+    }
+  ],
+  "duration_seconds": 551.48
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+runs/
+*.pt
+.vscode/
+.pytest_cache/
+.mypy_cache/
+results/estudo_ablacao_dropout.*
+results/.~lock.*
